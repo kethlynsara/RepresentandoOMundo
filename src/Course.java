@@ -5,6 +5,14 @@ public class Course {
     private int admissionYear;
     private int admissionSemester; 
 
+    public Course(String name, String college, String state, int admissionYear, int admissionSemester) {
+        this.name = name;
+        this.college = college;
+        this.state = state;
+        this.admissionYear = admissionYear;
+        this.admissionSemester = admissionSemester;
+    }
+
     public String getName(){
         return this.name;
     }

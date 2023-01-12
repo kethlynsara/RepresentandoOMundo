@@ -15,7 +15,7 @@ public class Plan {
         return this.value;
     }
 
-    public void setValue(String type) {
+    private void setValue(String type) {
         if (type.equals("mensal")) {
             this.value = 44.90;
         } else if (type.equals("semestral")) {
